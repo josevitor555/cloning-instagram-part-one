@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0; /*No Scroll*/
+}
+main section.container {
+    position: relative;
+    width: 400px;
+    height: 390px;
+    background: transparent;
+    border: 1px solid #fafafa;
+}
+main section.container .header-publication {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #fafafa;
+    padding: 10px;
+    display: flex;
+}
+main section.container .header-publication .circle-perfil#image_user {
+    width: 50px;
+    height: 50px;
+    background-image: url("personal-perfil/kobayashi_sam.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main section.container .header-publication .name-perfil {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+main section.container .header-publication .name-perfil .name {
+    font-size: 18px;
+    color: #fff;
+}
+main section.container .header-publication .menu {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px;
+}
+main section.container .header-publication .menu i {
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+main section.container .image-publication {
+    width: 100%;
+    height: 200px;
+    background-image: url("image-publication/Kobayashi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+main section.container .footer-publication {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+}
+main section.container .footer-publication .area-one {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main section.container .footer-publication .area-one .li-co-sh {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+main section.container .footer-publication .area-one .li-co-sh i {
+    font-size: 14px;
+    color: #fafafa;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: .3s;
+}
+main section.container .footer-publication .area-one .li-co-sh i:hover {
+    opacity: .5;
+}
+main section.container .footer-publication .area-one .save-it {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section.container .footer-publication .area-one .save-it i {
+    font-size: 18px;
+    color: #fafafa;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: .3s;
+}
+main section.container .footer-publication .area-one .save-it i:hover {
+    opacity: .5;
+}
+main section.container .footer-publication .area-two {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+main section.container .footer-publication .area-two .people-liked-this-and-more {
+    font-size: 10px;
+    color: #fff;
+}
+main section.container .footer-publication .area-two .people-liked-this-and-more span {
+    color: #fff;
+    opacity: 1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+main section.container .footer-publication .area-two .description-publication {
+    font-size: 10px;
+    color: #fff;
+}
+main section.container .footer-publication .area-two .description-publication span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+main section.container .footer-publication .area-two .translate-this {
+    font-size: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+main section.container .footer-publication .area-two .show-comments {
+    font-size: 10px;
+    opacity: .5;
+    color: #fff;
+    cursor: pointer;
+}
+main section.container .footer-publication .area-two .add-a-comment {
+    font-size: 10px;
+    color: #fff;
+    opacity: .5;
+}
+body {
+    position: relative;
+    height: 100vh; /*Default*/
+    background-color: #000000; /*Default*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
